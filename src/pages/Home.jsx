@@ -18,8 +18,8 @@ const Projects = lazy(() =>
   import('../components/sections/Projects/Projects')
 );
 
-const RoadTimeline = lazy(() =>
-  import('../components/timeline/RoadTimeline/RoadTimeline')
+const RoadTimeLine = lazy(() =>
+  import('../components/timeline/RoadTimeLine/RoadTimeLine')
 );
 
 const Contact = lazy(() =>
@@ -38,7 +38,7 @@ const Home = () => {
       <About />
       <Skills />
       <Projects />
-      <RoadTimeline />
+      <RoadTimeLine />
       <Contact />
       <Footer />
     </Suspense>
