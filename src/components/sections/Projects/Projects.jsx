@@ -67,8 +67,8 @@ const Card = styled.div`
   background: rgba(255, 255, 255, 0.03);
 
   border: 1px solid
-    ${({ active }) =>
-      active
+    ${({ $active }) =>
+      $active
         ? "rgba(127, 90, 240, 0.7)"
         : "rgba(255, 70, 70, 0.25)"};
 
@@ -89,8 +89,8 @@ const Card = styled.div`
     border-color 0.22s ease,
     box-shadow 0.22s ease;
 
-  box-shadow: ${({ active }) =>
-    active
+  box-shadow: ${({ $active }) =>
+    $active
       ? `
       0 0 12px rgba(127, 90, 240, 0.18)
     `
@@ -203,7 +203,7 @@ const CloseButton = styled.button`
 const ProjectCard = memo(({ project, onClick }) => {
   return (
     <Card
-      active={project.status}
+      $active={project.status}
       onClick={() => onClick(project)}
     >
       <h3>{project.name}</h3>

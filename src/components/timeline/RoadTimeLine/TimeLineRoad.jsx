@@ -10,7 +10,7 @@ const Svg = styled.svg`
   pointer-events: none;
 `;
 
-const TimelineRoad = () => {
+const TimeLineRoad = () => {
   return (
     <Svg viewBox="0 0 1200 3000" preserveAspectRatio="none">
       <path
@@ -30,4 +30,4 @@ const TimelineRoad = () => {
   );
 };
 
-export default TimelineRoad;
+export default TimeLineRoad;

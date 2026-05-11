@@ -3,8 +3,15 @@ import styled from 'styled-components';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
 
+const MotionDiv = motion.create('div');
+const MotionH1 = motion.create('h1');
+const MotionH2 = motion.create('h2');
+const MotionP = motion.create('p');
+const MotionLink = motion.create(Link);
+
 const Container = styled.section`
   min-height: 100vh;
+
   background: linear-gradient(
     180deg,
     #050816 0%,
@@ -17,34 +24,47 @@ const Container = styled.section`
   align-items: center;
 
   padding: 2rem;
+
   overflow: hidden;
+
   position: relative;
 `;
 
 const GlowOrb = styled.div`
   position: absolute;
+
   width: 500px;
   height: 500px;
+
   background: rgba(127, 90, 240, 0.18);
+
   filter: blur(120px);
+
   border-radius: 50%;
+
   top: 10%;
   left: 50%;
+
   transform: translateX(-50%);
+
   z-index: 0;
 `;
 
-const Content = styled(motion.div)`
+const Content = styled(MotionDiv)`
   position: relative;
+
   z-index: 2;
 
   text-align: center;
+
   max-width: 900px;
 `;
 
-const ErrorCode = styled(motion.h1)`
+const ErrorCode = styled(MotionH1)`
   font-size: clamp(6rem, 18vw, 14rem);
+
   font-weight: 900;
+
   line-height: 1;
 
   background: linear-gradient(
@@ -60,23 +80,28 @@ const ErrorCode = styled(motion.h1)`
   text-shadow: 0 0 40px rgba(127, 90, 240, 0.4);
 `;
 
-const Title = styled(motion.h2)`
+const Title = styled(MotionH2)`
   font-size: clamp(2rem, 5vw, 4rem);
+
   margin-top: 1rem;
   margin-bottom: 1.5rem;
 `;
 
-const Description = styled(motion.p)`
+const Description = styled(MotionP)`
   color: #94a1b2;
+
   font-size: 1.1rem;
+
   line-height: 1.8;
 
   max-width: 650px;
+
   margin: 0 auto 3rem auto;
 `;
 
-const HomeButton = styled(motion(Link))`
+const HomeButton = styled(MotionLink)`
   display: inline-flex;
+
   align-items: center;
   justify-content: center;
 
@@ -91,7 +116,10 @@ const HomeButton = styled(motion(Link))`
   );
 
   color: white;
+
   font-weight: 600;
+
+  text-decoration: none;
 
   transition: all 0.3s ease;
 
@@ -100,7 +128,7 @@ const HomeButton = styled(motion(Link))`
     0 0 60px rgba(127, 90, 240, 0.15);
 
   &:hover {
-    transform: translateY(-4px) scale(1.03);
+    transform: translateY(-4px);
 
     box-shadow:
       0 0 30px rgba(127, 90, 240, 0.55),
@@ -110,15 +138,28 @@ const HomeButton = styled(motion(Link))`
 
 const GridOverlay = styled.div`
   position: absolute;
+
   inset: 0;
 
   background-image:
-    linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+    linear-gradient(
+      rgba(255,255,255,0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(255,255,255,0.03) 1px,
+      transparent 1px
+    );
 
   background-size: 80px 80px;
 
-  mask-image: radial-gradient(circle at center, black 30%, transparent 85%);
+  mask-image:
+    radial-gradient(
+      circle at center,
+      black 30%,
+      transparent 85%
+    );
 `;
 
 const NotFound = () => {

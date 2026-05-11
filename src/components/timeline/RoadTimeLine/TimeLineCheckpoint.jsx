@@ -13,7 +13,7 @@ const Card = styled(motion.div)`
   margin: 10rem auto;
 `;
 
-const TimelineCheckpoint = ({ data }) => {
+const TimeLineCheckpoint = ({ data }) => {
   const { ref, inView } = useInView({
     threshold: 0.4,
     triggerOnce: true,
@@ -35,4 +35,4 @@ const TimelineCheckpoint = ({ data }) => {
   );
 };
 
-export default TimelineCheckpoint;
+export default TimeLineCheckpoint;

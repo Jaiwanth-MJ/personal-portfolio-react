@@ -1,7 +1,7 @@
 import React, { useRef } from 'react';
 import styled from 'styled-components';
-import TimelineRoad from './TimelineRoad';
-import TimelineCheckpoint from './TimelineCheckpoint';
+import TimeLineRoad from './TimeLineRoad';
+import TimeLineCheckpoint from './TimeLineCheckpoint';
 import timelineData from '../../../data/timeline.json';
 
 const Container = styled.section`
@@ -10,15 +10,15 @@ const Container = styled.section`
   padding: 10rem 0;
 `;
 
-const RoadTimeline = () => {
+const RoadTimeLine = () => {
   const containerRef = useRef(null);
 
   return (
     <Container id="timeline" ref={containerRef}>
-      <TimelineRoad />
+      <TimeLineRoad />
 
       {timelineData.map((checkpoint, index) => (
-        <TimelineCheckpoint
+        <TimeLineCheckpoint
           key={checkpoint.id}
           data={checkpoint}
           index={index}
@@ -28,4 +28,4 @@ const RoadTimeline = () => {
   );
 };
 
-export default RoadTimeline;
+export default RoadTimeLine;
