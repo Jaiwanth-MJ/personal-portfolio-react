@@ -1,0 +1,42 @@
+[
+  {
+    "id": "start",
+    "year": "2022",
+    "title": "Started Basic Frontend",
+    "description": "Began learning web technologies and frontend development.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "media": "/images/start.webp"
+  },
+  {
+    "id": "programming",
+    "year": "2024",
+    "title": "Started Programming",
+    "description": "Started learning programming languages like C++, Python, Java, DSA",
+    "skills": ["C++", "Python", "DSA","java"],
+    "media": "/images/react.webp"
+  },
+  {
+    "id": "react",
+    "year": "2025",
+    "title": "Learned React",
+    "description": "Built multiple interactive frontend applications.",
+    "skills": ["React", "Hooks", "Vite"],
+    "media": "/images/react.webp"
+  },
+  {
+    "id": "springboot",
+    "year": "2025",
+    "title": "Learned Springboot",
+    "description": "Had Handson practise and learned Springboot.",
+    "skills": ["React", "Hooks", "Vite"],
+    "media": "/images/react.webp"
+  },
+  {
+    "id": "ML",
+    "year": "2026",
+    "title": "Learning ML",
+    "description": "Practised various basic and medium real-life applications of ML problems ",
+    "skills": ["Machine Learning", "Scikit-Learn", "Pandas","NumPy"],
+    "media": "/images/react.webp"
+  }
+]
