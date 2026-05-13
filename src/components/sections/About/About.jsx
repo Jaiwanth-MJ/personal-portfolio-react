@@ -26,13 +26,13 @@ const About = () => {
       <Title>About Me</Title>
 
       <Text>
-        I’m a passionate developer with a strong foundation in React and Spring Boot,
-         driven by a deep curiosity for Machine Learning and Artificial Intelligence. 
-         I enjoy exploring how intelligent systems work, from neural networks and recommendation systems
-         to deep learning concepts and real-world AI applications. 
-         Alongside web development, I’m constantly learning emerging technologies and building a strong 
-         understanding of both software engineering and modern AI. I’m enthusiastic about creating impactful, 
-         future-driven solutions that combine creativity, logic, and innovation.
+        CSE student at SKCT. I code to solve real problems, not chase trends. Passionate about building systems with 
+        genuine impact—whether that's ML/AI for social good or tools that help communities.
+        Driven by Dr. Kalam's vision: technology as a means for meaningful change. I learn deeply, ship projects, and engage honestly 
+        with communities (technical events, hackathons, NPTEL coursework).
+        Seeking roles where I can contribute substantively and build a stable foundation.I can provide and keep learning. 
+        Impact matters more.
+        Curious about systems that scale, AI applications beyond hype, and work that leaves something better behind.
       </Text>
     </Container>
   );

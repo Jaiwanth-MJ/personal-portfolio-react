@@ -2,41 +2,41 @@
   {
     "id": "start",
     "year": "2022",
-    "title": "Started Basic Frontend",
-    "description": "Began learning web technologies and frontend development.",
+    "title": "Started Frontend Development",
+    "description": "Built foundational web skills and structured layouts.",
     "skills": ["HTML", "CSS", "JavaScript"],
     "media": "/images/start.webp"
   },
   {
     "id": "programming",
     "year": "2024",
-    "title": "Started Programming",
-    "description": "Started learning programming languages like C++, Python, Java, DSA",
-    "skills": ["C++", "Python", "DSA","java"],
+    "title": "Mastered Core Programming & Algorithms",
+    "description": "Developed strong fundamentals in multiple languages and algorithmic problem-solving.",
+    "skills": ["C++", "Python", "Java", "DSA"],
     "media": "/images/react.webp"
   },
   {
     "id": "react",
     "year": "2025",
-    "title": "Learned React",
-    "description": "Built multiple interactive frontend applications.",
+    "title": "Advanced React & Modern Frontend",
+    "description": "Built production-ready interactive applications with modern tooling.",
     "skills": ["React", "Hooks", "Vite"],
     "media": "/images/react.webp"
   },
   {
     "id": "springboot",
     "year": "2025",
-    "title": "Learned Springboot",
-    "description": "Had Handson practise and learned Springboot.",
-    "skills": ["React", "Hooks", "Vite"],
-    "media": "/images/react.webp"
+    "title": "Backend Development with Spring Boot",
+    "description": "Gained hands-on experience building scalable server-side applications.",
+    "skills": ["Spring Boot", "Java", "REST APIs"],
+    "media": "/images/springboot.webp"
   },
   {
     "id": "ML",
     "year": "2026",
-    "title": "Learning ML",
-    "description": "Practised various basic and medium real-life applications of ML problems ",
-    "skills": ["Machine Learning", "Scikit-Learn", "Pandas","NumPy"],
-    "media": "/images/react.webp"
+    "title": "Machine Learning & Data Science",
+    "description": "Implemented real-world ML solutions across classification, clustering, and predictive modeling.",
+    "skills": ["Machine Learning", "Scikit-Learn", "Pandas", "NumPy"],
+    "media": "/images/ml.webp"
   }
 ]
