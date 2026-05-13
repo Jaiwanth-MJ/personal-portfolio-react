@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Immersive Portfolio",
+    "description":
+      "A cinematic developer portfolio built using React, Vite, Framer Motion, and Styled Components with immersive animations and futuristic UI design.",
+    "github": "https://github.com/Jaiwanth-MJ/personal-portfolio-react",
+    "status": true
+  },
+
+  {
+    "id": 2,
+    "name": "Customer Churn Prediction",
+    "description":
+      "A machine learning system that predicts customer churn probability using intelligent classification models and behavioral analytics.",
+    "github": "https://github.com/",
+    "status": false
+  },
+
+  {
+    "id": 3,
+    "name": "Movie Akinator",
+    "description":
+      "An AI-powered movie recommendation system that understands user preferences through interactive questioning and recommendation logic.",
+    "github": "https://github.com/",
+    "status": false
+  },
+
+  {
+    "id": 4,
+    "name": "Stock Price Trend Prediction",
+    "description":
+      "A deep learning based stock forecasting system using LSTM neural networks and financial time-series analysis.",
+    "github": "https://github.com/",
+    "status": false
+  }
+]
